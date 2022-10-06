@@ -1,0 +1,40 @@
+.portfolio{
+    max-width: 1320px;
+    border: 1px solid;
+    .portfolio-box{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        // border: 1px solid;
+        .portfolio-text{
+            max-width: 69px;
+            font-family: sans-serif;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22.05px;
+            color: #23049d;
+        }
+        hr{
+            width: 35px;
+            border: 1px solid #23049d;
+            border-radius: 5px;
+            margin-left: 15px;
+            background-color: #23049d;
+        }
+    }
+}
+@media only screen and (max-width: 834px) {
+    .portfolio{
+        .portfolio-box{
+            .portfolio-text{
+                width: 61px;
+                font-size: 16px;
+                line-height: 19.6px;
+                color: #37474F;
+            }
+            hr{
+                border: 1px solid #37474F;
+            }
+        }
+    }
+}

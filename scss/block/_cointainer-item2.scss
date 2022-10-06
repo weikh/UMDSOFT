@@ -1,0 +1,30 @@
+.cointainer-item2{
+    max-width: 1320px;
+    border: 1px solid;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .cointainer-item2-box{
+        width: 650px;
+        height: 518px;
+        border: 1px solid;
+        border-radius: 10px;
+        background-color: #d9d9d9;
+    }
+    .cointainer-item2-box2{
+        width: 650px;
+        height: 518px;
+        border: 1px solid;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .cointainer-item2-box3{
+            width: 315px;
+            height: 247px;
+            border: 1px solid;
+            border-radius: 10px;
+            background-color: #d9d9d9;
+        }
+    }
+}
